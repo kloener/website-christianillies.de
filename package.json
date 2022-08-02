@@ -1,0 +1,13 @@
+{
+  "name": "website-christianillies",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kloener/website-christianillies.de.git",
+  "author": "Christian Illies <post@christianillies.de>",
+  "license": "Apache License 2.0",
+  "private": true,
+  "scripts": {
+    "install:all": "cd svelte-variant && yarn && cd ../react-variant && yarn && cd ../angular-variant && yarn && cd ..",
+    "start": "cd svelte-variant && yarn dev && cd ../react-variant && yarn start && cd ../angular-variant && yarn start && cd .."
+  }
+}
